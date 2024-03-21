@@ -1,0 +1,66 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    padding: 3%;
+    gap: 10px;
+}
+.detalles__product{
+    position: relative;
+    height: 20vh;
+    border-radius: 15px;
+    background: var(--color-white);
+    margin: 3% 0;    
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.detalles__product:first-child{
+    margin-top: 0;
+}
+.detalles__product__name{
+    font-size: 1em;
+    font-weight: 600;
+}
+.detalles__product__images{
+    height: 90%;
+}
+.detalles__product__images img{
+    width: 100%;
+    object-fit: cover;
+}
+.detalles__product__info{
+    margin-top: 3%;
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detalles__product__info i{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 2%;
+}
+.stars i{
+    font-size: 1.5em;
+}
+.detalles__precio{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.detalles__precio h4{
+    font-weight: lighter;
+}
+.detalles__product__button{
+    border: 3px solid var(--color-black);
+    border-radius: 15px;
+    width: 30%;
+    padding: 3% 5%;
+}

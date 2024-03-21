@@ -58,6 +58,9 @@ header h2{
     color: var(--color-white);
     font-size: 2em;
 }
+.carrito2{
+    display: none;
+}
 
 main{
     padding: 3%;
@@ -187,11 +190,15 @@ main{
         font-size: 1.3em;
     }
     .carrito{
-        position: absolute;
+        display: none;
+    }
+    .carrito2{
+        display: block;
         right: 0;
         top: 0;
         margin: 2%;
         font-size: 3em;
+        color: var(--color-white);
     }
     .product{
         grid-template-columns: repeat(2, 1fr);
