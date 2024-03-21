@@ -5,3 +5,30 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    height: 100vh;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--color-white);
+}
+.menu{
+    position: absolute;
+    transition: transform 0.3s;
+    transform: translateY(-200%);
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50vh;
+
+}
+.menu__show{
+    transform: translateY(0);
+}
